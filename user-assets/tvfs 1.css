@@ -1,0 +1,55 @@
+#staticLogin {
+    background-color: #cf0000;
+}
+
+#staticLogin ct-login-form {
+	margin:35px auto;
+}
+
+html #Login {
+    --default-bg-color-light: #cf0000;
+}
+
+#staticLogin image-viewer[name="ConsoleLogo"] div {
+    margin:0;
+}
+
+md-question[item-type="switch"] > div {
+  display: flex;
+}
+
+md-question[item-type="switch"] label {
+  flex-grow: 1;
+}
+
+.switch-container {
+  margin-top: 0;
+}
+
+section#static_logo {
+  text-align: center;
+  max-height: 144px;
+  border: 0;
+}
+
+md-content#html_group {
+  background-color: #1f314c;
+  color: white;
+  text-align: center;
+}
+
+md-content#html_group .content-block {
+  margin: 5px 0;
+}
+
+.btn-primary {
+  background-color: var(--button-primary-bg, #15233B);
+  border: var(--button-primary-border, #15233B);
+  color: var(--button-primary-text, #fff);
+}
+
+#btnChangeGroup a {
+    background-color: var(--default-bg-color-light);
+    color: var(--default-font-color);
+    border: 1px solid var(--default-border-color);
+}
